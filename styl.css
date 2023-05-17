@@ -1,0 +1,73 @@
+.title {
+  width: 70%;
+  text-align: center;
+  margin: 1rem auto;
+  box-shadow: 3px 3px 10px rgb(72, 153, 229);
+}
+
+.score {
+  text-align: center;
+  grid-area: auto;
+}
+
+#blue {
+  margin: 0 auto;
+  width: 5%;
+  float: left;
+  margin-left: 41rem;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(72, 153, 229); 
+}
+
+#red {
+  margin: 0 auto;
+  width: 5%;
+  float: right;
+  margin-right: 40rem;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(217, 65, 93);
+}
+
+#score_blue {
+  margin: 0 auto;
+  width: 5%;
+  float: left;
+  margin-left: 41rem;
+  text-align: center;
+  box-shadow: 3px 3px 10px rgb(72, 153, 229);
+}
+
+#score_red {
+  margin: 0 auto;
+  width: 5%;
+  float: right;
+  margin-right: 40rem;
+  text-align: center; 
+  box-shadow: 3px 3px 10px rgb(217, 65, 93);
+}
+
+#btnReset {
+  margin: 1rem auto;
+  text-align: center;
+  margin-left: 49%;
+}
+
+.container{
+  width:100px;
+  height:10vh;
+  margin:1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.container div{
+  border: 1px solid darkgray;
+  border-top-right-radius: 2%;
+  background-color: rgb(241, 246, 245);
+  width:65px;
+  height:65px;
+}
